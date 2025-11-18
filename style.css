@@ -665,7 +665,7 @@ nav .logo {
   font-size: 1.4rem;
   border-radius: 0.5rem;
   width: 64%;
-  opacity: 0.1;
+  opacity: 0.3;
   line-height: 1.7;
   z-index: 1;
   position: absolute;
@@ -866,6 +866,7 @@ input {
   margin-bottom: 3rem;
 }
 .left-icons {
+  width: 60%;
   display: flex;
   justify-content: space-around;
 }
@@ -888,12 +889,12 @@ input {
 .left-icon-img2 img,
 .left-icon-img3 img {
   position: absolute;
-  top: 1.3rem;
+  top: 1.2rem;
   left: 1.2rem;
 }
 .left-icon-img1 img {
   position: absolute;
-  top: 1.1rem;
+  top: 1.3rem;
   left: 1.6rem;
 }
 .right-alldetails h2 {
