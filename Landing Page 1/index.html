@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Travel Agency Landing Page</title>
+  </head>
+  <body>
+    <section class="hero-container-wrapper">
+      <div class="header">
+        <nav>
+          <div class="logo">
+            <div class="logo-name">Trabook</div>
+            <div class="logo-img">
+              <img src="./images/herosection/logo-image.png" alt="logo" />
+            </div>
+          </div>
+        </nav>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-item">Home</li>
+            <li class="menu-item">About</li>
+            <li class="menu-item">Destination</li>
+            <li class="menu-item">Tour</li>
+            <li class="menu-item">Blog</li>
+          </ul>
+        </div>
+        <div class="auth-buttons">
+          <button class="btn btn-login">Login</button>
+          <button class="btn btn-signup btn-orange">Sign up</button>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="hero-flex">
+          <div class="hero-left">
+            <div class="hero-left-para1">
+              Get started your exciting
+              <span class="hero-left-para1-orange">journey</span> with us.
+            </div>
+            <div class="hero-left-para2">
+              A Team of experienced tourism professionals will provide you with
+              the best advice and tips for your desire place.
+            </div>
+            <div class="hero-left-para3">
+              <button class="hero-left-button">Discover Now</button>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img
+              class="hero-right-img1"
+              src="./images/herosection/aeroplane.png"
+              alt=""
+            />
+            <img
+              src="./images/herosection/Ellipse 4.png"
+              alt=""
+              class="hero-right-img2"
+            />
+            <img
+              src="./images/herosection/tourist-with-thumb-up.png"
+              alt=""
+              class="hero-right-img3"
+            />
+            <div class="hero-right-award">
+              <div class="hero-right-award-img">
+                <img src="./images/herosection/trophy.png" alt="" />
+              </div>
+              <div class="hero-right-award-para">
+                <p class="hero-right-award-heading">Best Tour Awards</p>
+              </div>
+            </div>
+            <div class="hero-right-explore">
+              <div class="hero-right-explore-img">
+                <img src="./images/herosection/google-maps.png" alt="" />
+              </div>
+              <div class="hero-right-explore-para">
+                <p class="hero-right-explore-heading">Explore</p>
+                <p class="hero-right-explore-content">
+                  Every cornar of the world with us
+                </p>
+              </div>
+            </div>
+            <div class="hero-right-star">
+              <div class="hero-right-star-img">
+                <img src="./images/herosection/star.png" alt="" />
+              </div>
+              <div class="hero-right-star-para">
+                <p class="hero-right-star-heading">27K</p>
+                <p class="hero-right-star-content">Customer Reviewd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        \
+      </div>
+      <div class="details-section">
+        <div class="hero-center">
+          <div class="hero-center-container">
+            <div class="hero-center-location">
+              <div class="hero-center-location-name">Location</div>
+              <div class="hero-center-location-arrow">
+                <img src="./images/herosection/down-arrow.png" />
+              </div>
+            </div>
+            <div class="hero-center-caption"><p>Where are you going</p></div>
+          </div>
+          <div class="hero-center-container">
+            <div class="hero-center-date">
+              <div class="hero-center-date-name">Date</div>
+              <div class="hero-center-date-arrow">
+                <img src="./images/herosection/down-arrow.png" />
+              </div>
+            </div>
+            <div class="hero-center-caption"><p>When you will go</p></div>
+          </div>
+          <div class="hero-center-container">
+            <div class="hero-center-guest">
+              <div class="hero-center-guest-name">Guest</div>
+              <div class="hero-center-guest-arrow">
+                <img src="./images/herosection/down-arrow.png" />
+              </div>
+            </div>
+            <div class="hero-center-caption"><p>Number of guest</p></div>
+          </div>
+          <div class="hero-center-container">
+            <button class="hero-center-button-btn">Explore Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="things-to-do-section">
+      <div class="things-to-do-container">
+        <div class="headings">
+          <div></div>
+          <div class="centered-heading">
+            <div class="heading-main">
+              Things you need <span class="heading-main-orange">to do</span>
+            </div>
+            <div class="heading-para">
+              We ensure that you’ll embark on a perfectly planned, safe vacation
+              at a price you can afford.
+            </div>
+          </div>
+          <div class="areo-img">
+            <img src="./images/things-to-do-section/two-areoplane.png" alt="" />
+          </div>
+        </div>
+
+        <div class="flex-cards">
+          <div class="flex-card-signup flex-card-signup-bg">
+            <div class="flex-card-img">
+              <img src="./images/things-to-do-section/signup-icon.png" alt="" />
+            </div>
+            <div class="flex-card-heading">Sign up</div>
+            <div class="flex-card-para">
+              Completes all the work associated with planning and processing
+            </div>
+          </div>
+          <div class="flex-card-money flex-card-money-bg">
+            <div class="flex-card-img">
+              <img src="./images/things-to-do-section/money-icon.png" alt="" />
+            </div>
+            <div class="flex-card-heading">Worth of Money</div>
+            <div class="flex-card-para">
+              After successful access then book from exclusive deals & pricing
+            </div>
+          </div>
+          <div class="flex-card-exciting flex-card-exciting-bg">
+            <div class="flex-card-img">
+              <img
+                src="./images/things-to-do-section/exciting-icon.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-card-heading">Exciting Travel</div>
+            <div class="flex-card-para">
+              Start and explore a wide range of exciting travel experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deals-section">
+      <div class="deals-container">
+        <div class="deals-headings">
+          <div class="centered-heading">
+            <div class="heading-main">
+              Exclusive
+              <span class="heading-main-orange">deals & discounts</span>
+            </div>
+            <div class="deals-heading-para">
+              Discover our fantastic early booking discounts & start planning
+              your journey.
+            </div>
+          </div>
+        </div>
+        <div class="flex-cards-deals">
+          <div class="flex-card-deals-bg">
+            <div class="flex-card-deals-img">
+              <img src="./images/deals/subway.png" alt="" />
+            </div>
+            <div class="flex-card-deals-discount-wrapper">
+              <div class="flex-card-deals-location">
+                <div class="flex-card-location-name">Madrid</div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.8</span
+                  >
+                </div>
+              </div>
+              <div class="flex-card-country">
+                <div class="flex-card-country-name">
+                  <img src="./images/deals/map.png" alt="" />
+                  <div class="country-name">Spain</div>
+                </div>
+                <div class="flex-card-country-amount">
+                  <div class="flex-card-country-actual-amt">$950</div>
+                  <div class="flex-card-country-discount-amt text-shadw">
+                    $850
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-card-deals-bg pink-bg">
+            <div class="flex-card-deals-img">
+              <img src="./images/deals/port.png" alt="" />
+            </div>
+            <div class="flex-card-deals-discount-wrapper">
+              <button class="btn-up">Book Now</button>
+              <div class="flex-card-deals-location">
+                <div class="flex-card-location-name">Firenze</div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.5</span
+                  >
+                </div>
+              </div>
+              <div class="flex-card-country">
+                <div class="flex-card-country-name">
+                  <img src="./images/deals/map.png" alt="" />
+                  <div class="country-name">Italy</div>
+                </div>
+                <div class="flex-card-country-amount">
+                  <div class="flex-card-country-actual-amt">$850</div>
+                  <div class="flex-card-country-discount-amt">$750</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-card-deals-bg">
+            <div class="flex-card-deals-img">
+              <img src="./images/deals/sea.png" alt="" />
+            </div>
+            <div class="flex-card-deals-discount-wrapper">
+              <div class="flex-card-deals-location">
+                <div class="flex-card-location-name">Paris</div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.4</span
+                  >
+                </div>
+              </div>
+              <div class="flex-card-country">
+                <div class="flex-card-country-name">
+                  <img src="./images/deals/map.png" alt="" />
+                  <div class="country-name">France</div>
+                </div>
+                <div class="flex-card-country-amount">
+                  <div class="flex-card-country-actual-amt">$699</div>
+                  <div class="flex-card-country-discount-amt">$599</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-card-deals-bg">
+            <div class="flex-card-deals-img">
+              <img src="./images/deals/animated.png" alt="" />
+            </div>
+            <div class="flex-card-deals-discount-wrapper">
+              <div class="flex-card-deals-location">
+                <div class="flex-card-location-name">London</div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.8</span
+                  >
+                </div>
+              </div>
+              <div class="flex-card-country">
+                <div class="flex-card-country-name">
+                  <img src="./images/deals/map.png" alt="" />
+                  <div class="country-name">UK</div>
+                </div>
+                <div class="flex-card-country-amount">
+                  <div class="flex-card-country-actual-amt">$850</div>
+                  <div class="flex-card-country-discount-amt">$850</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="deals-arrows">
+          <div class="arrow left">
+            <img src="./images/deals/left.png" alt="" />
+          </div>
+          <div class="arrow right">
+            <img src="./images/deals/right.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vacation">
+      <div class="vacation-container">
+        <div class="headings exc-headings">
+          <div></div>
+          <div class="coconut-centered-heading">
+            <div class="heading-main">
+              Best <span class="heading-main-orange">vacation plan</span>
+            </div>
+            <div class="heading-para">
+              Plan your perfect vacation with our travel agency. Choose among
+              hundreds of all-inclusive offers!
+            </div>
+          </div>
+          <div class="coconut-img">
+            <img src="./images/vacation/coconut.png" alt="" />
+          </div>
+        </div>
+        <div class="arrow-row">
+          <div class="vacation-arrow">
+            <div class="left ml-1">
+              <img src="./images/deals/left.png" alt="" />
+            </div>
+            <div class="right">
+              <img src="./images/deals/right.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex-card-vacation">
+          <div class="flex-card-vacation-bg">
+            <div class="flex-card-vacation-img">
+              <img src="./images/vacation/sunset.png" alt="" />
+            </div>
+            <div class="flex-card-location-wrapper">
+              <div class="vacation-location">
+                <div class="vacation-location-left">Rome, Italy</div>
+                <div class="vacation-location-right">$5,42k</div>
+              </div>
+              <div class="trip">
+                <div class="trip-left">
+                  <img src="./images/vacation/Navigation.png" alt="" />
+                  <div class="trip-para">10 Days Trip</div>
+                </div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.8</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-card-vacation-bg pink-bg">
+            <div class="flex-card-vacation-img">
+              <img src="./images/vacation/dessert.png" alt="" />
+            </div>
+            <div class="flex-card-location-wrapper">
+              <div class="vacation-location">
+                <div class="vacation-location-left">London, UK</div>
+                <div class="vacation-location-right">$2,42k</div>
+              </div>
+              <div class="trip">
+                <div class="trip-left">
+                  <img src="./images/vacation/Navigation.png" alt="" />
+                  <div class="trip-para">07 Days Trip</div>
+                </div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.7</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-card-vacation-bg">
+            <div class="flex-card-vacation-img">
+              <img src="./images/vacation/beach.png" alt="" />
+            </div>
+            <div class="flex-card-location-wrapper">
+              <div class="vacation-location">
+                <div class="vacation-location-left">Osaka, Japan</div>
+                <div class="vacation-location-right">$5,42k</div>
+              </div>
+              <div class="trip">
+                <div class="trip-left">
+                  <img src="./images/vacation/Navigation.png" alt="" />
+                  <div class="trip-para">10 Days Trip</div>
+                </div>
+                <div class="flex-card-location-ratings">
+                  <img src="./images/deals/star.png" alt="" /><span
+                    class="rating-number"
+                    >4.8</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="flex-about-container">
+        <div class="flex-about-left">
+          <div class="about-left-heading">
+            <p class="heading-main w-60">
+              What people say <span class="heading-main-orange">about us</span>
+            </p>
+          </div>
+          <div class="about-para w-60 lh-1">
+            <p>
+              Our Clients send us bunch of smilies with our services and we love
+              them.
+            </p>
+          </div>
+          <div class="about-arrow">
+            <div class="left ml-2">
+              <img src="./images/deals/left.png" alt="" />
+            </div>
+            <div class="right">
+              <img src="./images/deals/right.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex-about-right">
+          <div class="flex-about-right-profile">
+            <img src="./images/about/profile.png" alt="" />
+          </div>
+          <div class="flex-about-right-content-up">
+            <div class="flex-about-right-content-up-para">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </div>
+            <div class="flex-about-right-content-up-namediv">
+              <div class="flex-about-right-content-up-name">Mike taylor</div>
+              <div class="flex-about-right-content-up-desg">
+                Lahore, Pakistan
+              </div>
+            </div>
+          </div>
+          <div class="flex-about-right-content-down">
+            <div class="flex-about-right-content-down-para">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </div>
+            <div class="flex-about-right-content-down-namediv">
+              <div class="flex-about-right-content-down-name name-blur">
+                Chris Thomas
+              </div>
+              <div class="flex-about-right-content-down-desg name-blur">
+                CEO of Red Button
+              </div>
+            </div>
+          </div>
+          <div class="flex-about-right-img">
+            <img src="./images/about/3-aero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-section">
+      <div class="latest-section-container">
+        <div class="latest-heading">
+          <p class="heading-main">
+            Get update with
+            <span class="heading-main-orange">latest blog </span>
+          </p>
+        </div>
+        <div class="latest-flex-container">
+          <div class="latest-flex-item">
+            <div class="latest-flex-img">
+              <img src="./images/latest/flex-1.png" alt="" />
+            </div>
+            <div class="latest-flex-para1 txt-shadow">
+              The Amazing Difference a Year of Travelling .
+            </div>
+            <div class="latest-flex-para2 txt-shadow">July 27, 2021</div>
+          </div>
+          <div class="latest-flex-item">
+            <div class="latest-flex-img">
+              <img src="./images/latest/flex-2.png" alt="" />
+            </div>
+            <div class="latest-flex-para1">
+              Travel far enough, you meet yourself.
+            </div>
+            <div class="latest-flex-para2">July 27, 2021</div>
+          </div>
+          <div class="latest-flex-item">
+            <div class="latest-flex-img">
+              <img src="./images/latest/flex-3.png" alt="" />
+            </div>
+            <div class="latest-flex-para1">
+              How to Save Money While Visiting Africa .
+            </div>
+            <div class="latest-flex-para2">July 27, 2021</div>
+          </div>
+          <div class="latest-flex-item">
+            <div class="latest-flex-img">
+              <img src="./images/latest/flex-4.png" alt="" />
+            </div>
+            <div class="latest-flex-para1">
+              Reflections on 5 Months of Travel: Time to Hang
+            </div>
+            <div class="latest-flex-para2">July 27, 2021</div>
+          </div>
+        </div>
+        <div class="latest-dots">
+          <div class="dot1 dot"></div>
+          <div class="dot2 dot"></div>
+          <div class="dot3 dot"></div>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe-section">
+      <div class="subscribe-container">
+        <div class="subscribe-orange-container">
+          <div class="subscribe-heading">
+            Subscribe and get exclusive deals & offer
+          </div>
+          <div class="set-width">
+            <div class="subscribe-input-div">
+              <div class="input-img">
+                <img src="./images/subscribe/mail.png" alt="" />
+              </div>
+              <div class="input-field item-center">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="input-button">
+                <button>Subscribe</button>
+              </div>
+            </div>
+            <div class="images">
+              <img src="./images/subscribe/ring.png" alt="" class="image-1" />
+              <img src="./images/subscribe/trees.png" alt="" class="image-2" />
+            </div>
+          </div>
+        </div>
+        <div class="flex-alldetails">
+          <div class="left-alldetails">
+            <div class="alldetails-set-width">
+              <div class="left-alldetail-heading">
+                <div class="left-logo">
+                  <div class="left-logo-name">Trabook</div>
+                  <div class="left-logo-img">
+                    <img src="./images/herosection/logo-image.png" alt="logo" />
+                  </div>
+                </div>
+              </div>
+              <div class="left-para">
+                <p>
+                  Book your trip in minute, get full Control for much longer.
+                </p>
+              </div>
+              <div class="left-icons">
+                <div class="left-icon-img1">
+                  <img src="./images/subscribe/Facebook Icon.png" alt="" />
+                </div>
+                <div class="left-icon-img2">
+                  <img src="./images/subscribe/instagram.png" alt="" />
+                </div>
+                <div class="left-icon-img3">
+                  <img src="./images/subscribe/twitter.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-alldetails-div">
+            <div class="right-alldetails">
+              <h2>Content</h2>
+              <div class="topics">About</div>
+              <div class="topics">Careers</div>
+              <div class="topics">Logistic</div>
+              <div class="topics">Privacy & Policy</div>
+            </div>
+            <div class="right-alldetails">
+              <h2>Contact</h2>
+              <div class="topics">Help/FAQ</div>
+              <div class="topics">Press</div>
+              <div class="topics">Affilates</div>
+            </div>
+            <div class="right-alldetails">
+              <h2>More</h2>
+              <div class="topics">Press Center</div>
+              <div class="topics">Our Blog</div>
+              <div class="topics">Low fare tips</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="section-footer-container">
+        <div class="footer-container">
+          <div class="footer-flex">
+            Copyright, Trabook 2022. All rights reserved.
+          </div>
+          <div class="footer-flex">Terms & Conditions</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
