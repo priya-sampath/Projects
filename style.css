@@ -288,7 +288,7 @@ nav .logo {
   justify-self: flex-end;
 }
 .things-to-do-container {
-  height: 75vh;
+  height: 85vh;
 }
 /* Things to do section */
 .things-to-do-section {
@@ -358,7 +358,7 @@ nav .logo {
   background-color: #ffffff;
   margin-right: 3rem;
   box-shadow: 0 0.4rem 0.9rem #000000;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   height: 18rem;
 }
 
